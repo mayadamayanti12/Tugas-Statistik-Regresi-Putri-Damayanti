@@ -7,7 +7,8 @@ Tugas Besar / Praktikum Statistika dan Probabilitas — Program Studi Sistem Inf
 ## 👤 Biodata Mahasiswa
 * **Nama** : Putri Damayanti
 * **NIM** : F5212520050
-
+* **Kelas** : Sistem Informasi (B)
+* **Studi Kasus** : Analisis Regresi Linear Berganda untuk Memprediksi Jumlah Kalori yang Terbakar Berdasarkan Durasi Olahraga dan Rata-Rata Detak Jantung  
 ---
 
 ## 📝 Deskripsi Studi Kasus
