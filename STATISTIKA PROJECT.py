@@ -45,7 +45,6 @@ print("="*70)
 print(model.summary())
 print("="*70)
 
-# Menghapus cache grafik lama agar tidak menumpuk berkali-kali
 plt.close('all') 
 
 plt.figure(figsize=(8, 5))
@@ -60,12 +59,9 @@ plt.ylabel('Kalori Hasil Prediksi Rumus', fontsize=10)
 plt.legend()
 plt.grid(True, linestyle=':', alpha=0.6)
 
-# Otomatis menyimpan file gambar hasil grafik ke laptop
 plt.savefig('Hasil_Grafik_Regresi_Putri.png', dpi=300, bbox_inches='tight')
 
-# Otomatis menyimpan file teks hasil statistika ke laptop
 with open('Hasil_Ringkasan_Statistik_Putri.txt', 'w') as f:
     f.write(model.summary().as_text())
 
-# Menampilkan grafik secara normal
 plt.show()
